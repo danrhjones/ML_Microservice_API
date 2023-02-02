@@ -1,7 +1,7 @@
 version: 2.1
 
 workflows:
-  sample: 
+  lint: 
     jobs:
       - build-and-test
 
