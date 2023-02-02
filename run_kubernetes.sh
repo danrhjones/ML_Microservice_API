@@ -4,13 +4,13 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=danrhjones/ml_project
+dockerpath=danrhjones/ml_project:v1.0.1
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run mlproject\
+kubectl run mlproject-v1\
     --image=$dockerpath\
-    --port=80 --labels app=mlproject
+    --port=80 --labels app=mlproject-v1
 
 
 # Step 3:
@@ -19,5 +19,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward mlproject 8000:80
+kubectl port-forward mlproject-v1 8000:80
 

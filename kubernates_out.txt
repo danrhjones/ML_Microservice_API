@@ -1,6 +1,0 @@
-(.devops) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh
-NAME                                 READY   STATUS    RESTARTS   AGE
-python-helloworld-586f655cf4-vb9pk   1/1     Running   0          31h
-Forwarding from 127.0.0.1:8000 -> 80
-Forwarding from [::1]:8000 -> 80
-Handling connection for 8000
